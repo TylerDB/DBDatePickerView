@@ -1,0 +1,6 @@
+framework module DBDatePickerView {
+  umbrella header "DBDatePickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

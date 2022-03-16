@@ -1,10 +1,13 @@
+source 'git@github.com:TylerDB/DBSpecs.git'
+source 'https://cdn.cocoapods.org/'
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'DBDatePickerView_Example' do
   pod 'DBDatePickerView', :path => '../'
-
+  
   target 'DBDatePickerView_Tests' do
     inherit! :search_paths
 

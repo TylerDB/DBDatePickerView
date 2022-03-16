@@ -1,0 +1,65 @@
+PODS:
+  - DBCategoryKit (1.1.1):
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+  - DBDatePickerView (1.0.0):
+    - DBCategoryKit
+    - Masonry
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.3)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - DBDatePickerView (from `../`)
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - Specta
+
+SPEC REPOS:
+  "git@github.com:TylerDB/DBSpecs.git":
+    - DBCategoryKit
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - Specta
+
+EXTERNAL SOURCES:
+  DBDatePickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBCategoryKit: c42c8ea759cb37150b1c21852b58ec6e4d4e37c9
+  DBDatePickerView: d59be82a6e17f7032c8e3e6a186518596a99cf3f
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 8ac020390f91c8a46ae13a2d227188c5da776573
+
+COCOAPODS: 1.9.1

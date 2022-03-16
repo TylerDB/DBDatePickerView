@@ -1,0 +1,6 @@
+framework module DBCategoryKit {
+  umbrella header "DBCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
